@@ -1,0 +1,9 @@
+{
+  "name": "mern-portfolio",
+  "version": "1.0.0",
+  "description": "MERN Stack Portfolio - Muhammad Shahbaz",
+  "private": true,
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}
