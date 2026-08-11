@@ -11,6 +11,7 @@ import Experience from './components/sections/Experience';
 import Education from './components/sections/Education';
 import Testimonials from './components/sections/Testimonials';
 import Contact from './components/sections/Contact';
+import ChatAgent from './components/chat/ChatAgent';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       </main>
 
       <Footer />
+      <ChatAgent />
     </div>
   );
 }
