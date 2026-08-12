@@ -1,3 +1,5 @@
+import { GoogleGenAI } from '@google/genai';
+
 export async function handler(event) {
   if (event.httpMethod !== 'POST') {
     return { statusCode: 405, body: JSON.stringify({ error: 'Method not allowed' }) };
@@ -66,7 +68,10 @@ INSTRUCTIONS:
 - If asked about pricing, say to contact him directly for a custom quote
 - If asked to hire him, share his email and WhatsApp`;
 
-    // Build conversation history for Gemini
+    // Initialize the Gemini SDK
+    const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
+
+    // Build conversation history for Gemini SDK
     const contents = [];
     
     // Add conversation history
@@ -85,35 +90,16 @@ INSTRUCTIONS:
       parts: [{ text: message }]
     });
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          system_instruction: {
-            parts: [{ text: systemPrompt }]
-          },
-          contents: contents,
-          generationConfig: {
-            temperature: 0.7,
-            maxOutputTokens: 300,
-          }
-        })
+    const response = await ai.models.generateContent({
+      model: 'gemini-1.5-flash',
+      contents: contents,
+      config: {
+        systemInstruction: systemPrompt,
+        temperature: 0.7,
       }
-    );
+    });
 
-    const data = await response.json();
-
-    if (!response.ok) {
-      console.error('Gemini API error:', JSON.stringify(data));
-      return {
-        statusCode: 500,
-        body: JSON.stringify({ error: 'AI service error. Please try again.' })
-      };
-    }
-
-    const aiReply = data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't generate a response.";
+    const aiReply = response.text || "Sorry, I couldn't generate a response.";
 
     return {
       statusCode: 200,
