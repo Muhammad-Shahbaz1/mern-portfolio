@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import { TypeAnimation } from 'react-type-animation';
 import { personalInfo, techStack } from '../../data/portfolioData';
 
 const Hero = () => {
@@ -29,8 +30,22 @@ const Hero = () => {
               <span className="text-sm font-medium text-slate-300">Available for freelance projects</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-4">
-              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">{personalInfo.name}</span>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-4 h-[120px] sm:h-[80px] lg:h-[100px]">
+              Hi, I'm <br className="sm:hidden" />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+                <TypeAnimation
+                  sequence={[
+                    personalInfo.name,
+                    2000,
+                    '',
+                    500
+                  ]}
+                  wrapper="span"
+                  speed={40}
+                  deletionSpeed={50}
+                  repeat={Infinity}
+                />
+              </span>
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-300 mb-6">
               {personalInfo.role}

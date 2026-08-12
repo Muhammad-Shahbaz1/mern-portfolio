@@ -5,11 +5,11 @@ export async function handler(event) {
     return { statusCode: 405, body: JSON.stringify({ error: 'Method not allowed' }) };
   }
 
-  const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+  const GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.GEMINI_APIKEY;
   if (!GEMINI_API_KEY) {
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: 'AI chat is not configured. Please set GEMINI_API_KEY.' })
+      body: JSON.stringify({ error: 'AI chat is not configured. Please set GEMINI_API_KEY or GEMINI_APIKEY.' })
     };
   }
 
