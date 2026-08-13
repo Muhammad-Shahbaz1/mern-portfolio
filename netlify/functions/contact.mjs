@@ -74,7 +74,11 @@ export async function handler(event) {
     console.error('Email error:', error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ success: false, error: 'Failed to send email. Please try again later.' })
+      body: JSON.stringify({ 
+        success: false, 
+        error: 'Failed to send email. Please try again later.',
+        detail: error.message || 'Unknown error'
+      })
     };
   }
 }
