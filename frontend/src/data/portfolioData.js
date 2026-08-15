@@ -79,7 +79,27 @@ export const services = [
 export const projects = [
   {
     id: 1,
-    title: "[Placeholder] Full Stack E-Commerce",
+    title: "PitchCraft AI",
+    shortDescription: "AI-powered pitch deck builder that generates 10-slide venture-grade investor decks in minutes.",
+    overview: "PitchCraft AI is an intelligent full-stack presentation builder engineered for startup founders and creators. It transforms raw business concepts into structured, 10-slide venture-grade investor decks with automated market sizing (TAM/SAM/SOM), growth analytics, speaker notes, and real-time PowerPoint (.pptx) & PDF exports.",
+    problem: "Founders spend weeks manually crafting pitch decks, often lacking structured market analysis and professional investor-grade formatting, which delays fundraising efforts.",
+    solution: "Built a Next.js 14 application powered by Google Gemini AI that generates a complete 10-slide pitch deck from a business idea in seconds, with automated TAM/SAM/SOM calculations, financial projections, interactive editing, and one-click .pptx & PDF export.",
+    features: [
+      "1-Click AI Deck Generator (10 slides)",
+      "Interactive Slide Studio & Live Editing",
+      "Dynamic Charts & Market Visualizers (TAM/SAM/SOM)",
+      "Dual-Screen Presenter Mode & VC Q&A Simulator",
+      "Instant .PPTX & .PDF Export",
+      "Dark/Light Theme with Local Storage"
+    ],
+    technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Gemini AI", "PptxGenJS", "jsPDF"],
+    image: "https://placehold.co/600x400/0f172a/38bdf8?text=PitchCraft+AI",
+    githubUrl: "https://github.com/Muhammad-Shahbaz1/pitch-craft",
+    liveUrl: "https://pitch-craft-brown.vercel.app"
+  },
+  {
+    id: 2,
+    title: "Full Stack E-Commerce",
     shortDescription: "A complete e-commerce platform with payment integration.",
     overview: "Built a fully functional e-commerce platform featuring product management, shopping cart, secure checkout, and an admin dashboard.",
     problem: "The client needed a fast, scalable online store with a custom admin panel.",
@@ -87,12 +107,12 @@ export const projects = [
     features: ["User Authentication", "Shopping Cart", "Admin Dashboard", "Payment Integration"],
     technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     image: "https://placehold.co/600x400/1e293b/ffffff?text=E-Commerce+Project",
-    githubUrl: "https://github.com/[placeholder]",
-    liveUrl: "https://[placeholder].com"
+    githubUrl: "https://github.com/Muhammad-Shahbaz1",
+    liveUrl: "#"
   },
   {
-    id: 2,
-    title: "[Placeholder] Business Management POS",
+    id: 3,
+    title: "Business Management POS",
     shortDescription: "Point of Sale and inventory management system.",
     overview: "A comprehensive business management tool for tracking sales, inventory, and employee performance.",
     problem: "Small businesses struggle with tracking inventory manually.",
@@ -100,21 +120,8 @@ export const projects = [
     features: ["Inventory Tracking", "Sales Reports", "Role-based Access", "Real-time updates"],
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     image: "https://placehold.co/600x400/1e293b/ffffff?text=POS+System",
-    githubUrl: "https://github.com/[placeholder]",
-    liveUrl: "https://[placeholder].com"
-  },
-  {
-    id: 3,
-    title: "[Placeholder] Admin Dashboard",
-    shortDescription: "Analytical dashboard for data visualization.",
-    overview: "A sleek, responsive dashboard for visualizing business metrics.",
-    problem: "Data was scattered across multiple spreadsheets making analysis difficult.",
-    solution: "Integrated a custom dashboard that aggregates data into easy-to-read charts and tables.",
-    features: ["Data Visualization", "Export Reports", "Dark Mode", "Customizable Widgets"],
-    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    image: "https://placehold.co/600x400/1e293b/ffffff?text=Admin+Dashboard",
-    githubUrl: "https://github.com/[placeholder]",
-    liveUrl: "https://[placeholder].com"
+    githubUrl: "https://github.com/Muhammad-Shahbaz1",
+    liveUrl: "#"
   }
 ];
 

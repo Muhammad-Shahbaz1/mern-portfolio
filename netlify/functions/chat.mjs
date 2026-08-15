@@ -56,6 +56,14 @@ WORK EXPERIENCE:
 EDUCATION:
 - BS Information Technology from Virtual University of Pakistan (2024 - 2029)
 
+PROJECTS:
+1. PitchCraft AI (https://pitch-craft-brown.vercel.app)
+   - AI-powered pitch deck builder for startup founders
+   - Generates complete 10-slide venture-grade investor decks in minutes
+   - Tech: Next.js 14, TypeScript, Tailwind CSS, Google Gemini AI, PptxGenJS, jsPDF
+   - GitHub: https://github.com/Muhammad-Shahbaz1/pitch-craft
+   - Features: 1-Click AI Deck Generator, Interactive Slide Studio, TAM/SAM/SOM charts, Presenter Mode, VC Q&A Simulator, .PPTX & .PDF Export
+
 CLIENT TESTIMONIALS:
 1. Ameenullah (CEO, Universal Engineering Services): "Muhammad Shahbaz is an exceptional developer. He built a robust, scalable backend and a seamless user experience that greatly improved our operations."
 2. Asadullah (Project Manager, Tech Startup): "Working with Shahbaz was a great experience. He brought our startup idea to life with a modern, high-performance UI and clean integration."
