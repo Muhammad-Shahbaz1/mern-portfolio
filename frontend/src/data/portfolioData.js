@@ -96,32 +96,6 @@ export const projects = [
     image: "/pitchcraft-preview.jpg",
     githubUrl: "https://github.com/Muhammad-Shahbaz1/pitch-craft",
     liveUrl: "https://pitch-craft-brown.vercel.app"
-  },
-  {
-    id: 2,
-    title: "Full Stack E-Commerce",
-    shortDescription: "A complete e-commerce platform with payment integration.",
-    overview: "Built a fully functional e-commerce platform featuring product management, shopping cart, secure checkout, and an admin dashboard.",
-    problem: "The client needed a fast, scalable online store with a custom admin panel.",
-    solution: "Developed a React frontend and Node/Express backend with MongoDB, ensuring fast load times and a secure REST API.",
-    features: ["User Authentication", "Shopping Cart", "Admin Dashboard", "Payment Integration"],
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    image: "https://placehold.co/600x400/1e293b/ffffff?text=E-Commerce+Project",
-    githubUrl: "https://github.com/Muhammad-Shahbaz1",
-    liveUrl: "#"
-  },
-  {
-    id: 3,
-    title: "Business Management POS",
-    shortDescription: "Point of Sale and inventory management system.",
-    overview: "A comprehensive business management tool for tracking sales, inventory, and employee performance.",
-    problem: "Small businesses struggle with tracking inventory manually.",
-    solution: "Created a centralized web application allowing real-time inventory tracking and sales reporting.",
-    features: ["Inventory Tracking", "Sales Reports", "Role-based Access", "Real-time updates"],
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
-    image: "https://placehold.co/600x400/1e293b/ffffff?text=POS+System",
-    githubUrl: "https://github.com/Muhammad-Shahbaz1",
-    liveUrl: "#"
   }
 ];
 
