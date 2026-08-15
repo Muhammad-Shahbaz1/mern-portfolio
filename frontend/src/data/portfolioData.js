@@ -93,7 +93,7 @@ export const projects = [
       "Dark/Light Theme with Local Storage"
     ],
     technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Gemini AI", "PptxGenJS", "jsPDF"],
-    image: "https://placehold.co/600x400/0f172a/38bdf8?text=PitchCraft+AI",
+    image: "/pitchcraft-preview.jpg",
     githubUrl: "https://github.com/Muhammad-Shahbaz1/pitch-craft",
     liveUrl: "https://pitch-craft-brown.vercel.app"
   },
