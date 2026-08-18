@@ -57,7 +57,13 @@ EDUCATION:
 - BS Information Technology from Virtual University of Pakistan (2024 - 2029)
 
 PROJECTS:
-1. PitchCraft AI (https://pitch-craft-brown.vercel.app)
+1. HealthMate – Sehat ka Smart Dost (https://frontend-nine-bice-20.vercel.app)
+   - AI-Powered Bilingual Medical Vault & Health Assistant
+   - Analyzes complex medical reports, prescriptions & lab tests (PDF/Images) and explains them in Roman Urdu and English
+   - Tech: Next.js 14, Node.js, Express.js, MongoDB Atlas, Google Gemini AI (Multimodal Vision), Tailwind CSS, Cloudinary, JWT
+   - GitHub: https://github.com/Muhammad-Shahbaz1/Healthmate
+   - Features: Multimodal report analysis, Bilingual summaries (Roman Urdu/English), Abnormal value & dosage flags, Doctor consultation questions generator, Diet & home remedies, Vitals tracking timeline (BP, Sugar, HR), Dark/Light theme, Cloudinary document vault
+2. PitchCraft AI (https://pitch-craft-brown.vercel.app)
    - AI-powered pitch deck builder for startup founders
    - Generates complete 10-slide venture-grade investor decks in minutes
    - Tech: Next.js 14, TypeScript, Tailwind CSS, Google Gemini AI, PptxGenJS, jsPDF

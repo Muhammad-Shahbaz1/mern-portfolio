@@ -79,6 +79,28 @@ export const services = [
 export const projects = [
   {
     id: 1,
+    title: "HealthMate – Sehat ka Smart Dost",
+    shortDescription: "AI-powered bilingual medical vault & health assistant that analyzes complex medical reports & prescriptions in Roman Urdu & English.",
+    overview: "HealthMate is a smart AI health platform engineered to bridge the gap between complex medical diagnostics and patient understanding. Powered by Google Gemini Multimodal Vision intelligence, it extracts and interprets lab reports, prescriptions, and test results (PDFs & Images), delivering crystal-clear explanations in both Roman Urdu and English alongside daily vitals logging and personal medical vault management.",
+    problem: "Medical lab reports, diagnostic tests, and handwritten prescriptions are packed with complex clinical terms and abnormal values that patients struggle to interpret, often leading to unasked critical questions during doctor visits and poorly organized medical records.",
+    solution: "Built a full-stack Next.js 14 and Express/Node.js application powered by Google Gemini Flash Multimodal AI. It instantly parses uploaded medical documents (PDF/Images), highlights abnormal values & medication dosages with visual flags, generates 3 tailored questions for doctors, recommends customized diet & home remedies, and maintains a secure, JWT-authenticated bilingual health timeline.",
+    features: [
+      "Multimodal Medical Report Analysis (PDFs & Images)",
+      "Bilingual Output (Dual Language: Roman Urdu & English)",
+      "Abnormal Values & Dosage Detection with Visual Flags",
+      "Doctor Consultation Questions Generator (3 Custom Questions)",
+      "Personalized Diet & Home Remedies Guide",
+      "Daily Vitals Tracker (BP, Sugar, Heart Rate) & History Timeline",
+      "Smooth Dark / Light Mode Theme Toggle",
+      "Secure JWT Authentication & Cloudinary Document Vault"
+    ],
+    technologies: ["Next.js 14", "React", "Node.js", "Express.js", "MongoDB Atlas", "Gemini AI", "Tailwind CSS", "Cloudinary", "JWT"],
+    image: "/healthmate-preview.jpg",
+    githubUrl: "https://github.com/Muhammad-Shahbaz1/Healthmate",
+    liveUrl: "https://frontend-nine-bice-20.vercel.app"
+  },
+  {
+    id: 2,
     title: "PitchCraft AI",
     shortDescription: "AI-powered pitch deck builder that generates 10-slide venture-grade investor decks in minutes.",
     overview: "PitchCraft AI is an intelligent full-stack presentation builder engineered for startup founders and creators. It transforms raw business concepts into structured, 10-slide venture-grade investor decks with automated market sizing (TAM/SAM/SOM), growth analytics, speaker notes, and real-time PowerPoint (.pptx) & PDF exports.",

@@ -4,12 +4,12 @@ echo   Muhammad Shahbaz - Portfolio Launcher
 echo ==========================================
 echo.
 echo Starting Backend Server (Contact Form)...
-start "Backend - Portfolio" cmd /k "cd /d "C:\Users\Adnan FM\Desktop\2nd project\backend" && node server.js"
+start "Backend - Portfolio" cmd /k "cd /d "%~dp0backend" && node server.js"
 
 ping 127.0.0.1 -n 3 > nul
 
 echo Starting Frontend Server (Website)...
-start "Frontend - Portfolio" cmd /k "cd /d "C:\Users\Adnan FM\Desktop\2nd project\frontend" && npm run dev"
+start "Frontend - Portfolio" cmd /k "cd /d "%~dp0frontend" && npm run dev"
 
 ping 127.0.0.1 -n 4 > nul
 
