@@ -57,13 +57,19 @@ EDUCATION:
 - BS Information Technology from Virtual University of Pakistan (2024 - 2029)
 
 PROJECTS:
-1. HealthMate – Sehat ka Smart Dost (https://frontend-nine-bice-20.vercel.app)
+1. Lexora — AI Legal Document Companion (https://lexora-app-wheat.vercel.app)
+   - AI-Powered Legal Document Companion & Contract Risk Auditor
+   - Analyzes legal contracts (Rent agreements, Job offers, NDAs) in Roman Urdu & English, detects hidden risks & unfair clauses, gives negotiation tips
+   - Tech: Next.js 14, Node.js, Express.js, MongoDB Atlas, Google Gemini Multimodal Vision AI, Tailwind CSS, Framer Motion, Cloudinary, JWT
+   - GitHub: https://github.com/Muhammad-Shahbaz1/Lexora
+   - Features: Multimodal upload (PDF/Images), Bilingual summary toggle, Risk Radar (High/Med/Low ratings), Split-screen audit viewer, Key clause breakdown, Smart negotiation assistant, Personal vault
+2. HealthMate – Sehat ka Smart Dost (https://frontend-nine-bice-20.vercel.app)
    - AI-Powered Bilingual Medical Vault & Health Assistant
    - Analyzes complex medical reports, prescriptions & lab tests (PDF/Images) and explains them in Roman Urdu and English
    - Tech: Next.js 14, Node.js, Express.js, MongoDB Atlas, Google Gemini AI (Multimodal Vision), Tailwind CSS, Cloudinary, JWT
    - GitHub: https://github.com/Muhammad-Shahbaz1/Healthmate
    - Features: Multimodal report analysis, Bilingual summaries (Roman Urdu/English), Abnormal value & dosage flags, Doctor consultation questions generator, Diet & home remedies, Vitals tracking timeline (BP, Sugar, HR), Dark/Light theme, Cloudinary document vault
-2. PitchCraft AI (https://pitch-craft-brown.vercel.app)
+3. PitchCraft AI (https://pitch-craft-brown.vercel.app)
    - AI-powered pitch deck builder for startup founders
    - Generates complete 10-slide venture-grade investor decks in minutes
    - Tech: Next.js 14, TypeScript, Tailwind CSS, Google Gemini AI, PptxGenJS, jsPDF

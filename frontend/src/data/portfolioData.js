@@ -79,6 +79,28 @@ export const services = [
 export const projects = [
   {
     id: 1,
+    title: "Lexora — AI Legal Document Companion",
+    shortDescription: "AI-powered legal assistant that analyzes contracts, detects hidden risks & unfair clauses, and explains them in Roman Urdu & English.",
+    overview: "Lexora is an intelligent legal tech companion engineered to democratize legal comprehension. Powered by Google Gemini Multimodal Vision, it audits complex legal agreements (such as Rent Agreements, Employment Contracts, NDAs, and Vendor terms) uploaded as PDFs or images, providing line-by-line bilingual breakdowns, automated risk radar ratings, and actionable negotiation strategies before signing.",
+    problem: "Legal contracts are deliberately written in dense, obscure legalese. Everyday individuals and freelancers frequently sign agreements containing predatory clauses, non-refundable deposits, and unfair penalties without understanding the hidden risks.",
+    solution: "Developed a full-stack Next.js 14 and Express/Node.js application powered by Google Gemini Multimodal AI. Features a split-screen audit viewer with side-by-side original contract preview, real-time risk radar (High/Medium/Low flags), simplified bilingual translations in Roman Urdu & English, and smart negotiation talking points.",
+    features: [
+      "Multimodal Contract Upload (PDFs & Images up to 10MB)",
+      "Bilingual Explanation Toggle (English & Roman Urdu)",
+      "Risk Radar & Red Flag Detection (High, Med, Low ratings)",
+      "Split-Screen Interactive Audit Viewer",
+      "Key Clause Breakdown & Simplified Explanations",
+      "Smart Negotiation Assistant (3–5 customized talking points)",
+      "Personal Contract Vault & Risk Status Timeline",
+      "Secure JWT Auth & 6-Digit Password Reset System"
+    ],
+    technologies: ["Next.js 14", "React", "Node.js", "Express.js", "MongoDB Atlas", "Gemini AI", "Tailwind CSS", "Framer Motion", "Cloudinary", "JWT"],
+    image: "/lexora-preview.jpg",
+    githubUrl: "https://github.com/Muhammad-Shahbaz1/Lexora",
+    liveUrl: "https://lexora-app-wheat.vercel.app"
+  },
+  {
+    id: 2,
     title: "HealthMate – Sehat ka Smart Dost",
     shortDescription: "AI-powered bilingual medical vault & health assistant that analyzes complex medical reports & prescriptions in Roman Urdu & English.",
     overview: "HealthMate is a smart AI health platform engineered to bridge the gap between complex medical diagnostics and patient understanding. Powered by Google Gemini Multimodal Vision intelligence, it extracts and interprets lab reports, prescriptions, and test results (PDFs & Images), delivering crystal-clear explanations in both Roman Urdu and English alongside daily vitals logging and personal medical vault management.",
@@ -100,7 +122,7 @@ export const projects = [
     liveUrl: "https://frontend-nine-bice-20.vercel.app"
   },
   {
-    id: 2,
+    id: 3,
     title: "PitchCraft AI",
     shortDescription: "AI-powered pitch deck builder that generates 10-slide venture-grade investor decks in minutes.",
     overview: "PitchCraft AI is an intelligent full-stack presentation builder engineered for startup founders and creators. It transforms raw business concepts into structured, 10-slide venture-grade investor decks with automated market sizing (TAM/SAM/SOM), growth analytics, speaker notes, and real-time PowerPoint (.pptx) & PDF exports.",

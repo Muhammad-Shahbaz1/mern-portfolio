@@ -23,6 +23,7 @@ A modern, high-performance, and responsive personal portfolio website built with
 - ⚡ **High-Performance & Modern UI:** Sleek dark-mode aesthetic with smooth scroll-reveal animations and glassmorphism.
 - 🤖 **Embedded Portfolio AI Assistant:** Interactive AI chat powered by Google Gemini trained on Muhammad Shahbaz's technical background, projects, and contact info.
 - 💼 **Featured Projects Showcase:**
+  - ⚖️ **Lexora — AI Legal Document Companion:** AI-powered contract analysis platform that scans legal documents (PDF/Images) to detect hidden risks, flag unfair terms, generate bilingual breakdowns (Roman Urdu/English), and provide negotiation tips.
   - 🏥 **HealthMate – Sehat ka Smart Dost:** AI-powered bilingual medical vault & health assistant analyzing medical reports (PDF/Images) in Roman Urdu & English with abnormal value detection and vitals timeline.
   - 🚀 **PitchCraft AI:** 10-slide investor pitch deck builder with market sizing (TAM/SAM/SOM), PowerPoint (.pptx) & PDF exports.
 - 📱 **Fully Responsive:** Pixel-perfect layout across mobile, tablet, laptop, and desktop viewports.
